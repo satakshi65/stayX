@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="StayX Connected Living" />
+
+    <title>StayX Dashboard</title>
+
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+    <!--main_css-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--responsive_css-->
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--owl-carousel-->
+    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet" type="text/css">
+
+    <!--animate-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+
+
+   <!--main-area-->
+   <div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+     <div class="sidebar-left">
+        <div class="sidebar-header">
+            <div class="logo-area">
+                <a href="index.html"><img alt="image" src="images/logo.png"></a>
+            </div>
+        </div>
+
+        <ul class="list-unstyled components">
+            <li class="active"><a href="index.html"><img alt="image" src="images/menu1.png"> Dashboard</a></li>
+            <li><a href="analytics.html"><img alt="image" src="images/menu2.png"> Analytics</a></li>
+            <li><a href="setup.html"><img alt="image" src="images/menu3.png"> Setup</a></li>
+        </ul>
+
+        <h4><a href="#"><img alt="image" src="images/logout.png"> Logout</a></a></h4>
+     </div>
+       
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content">
+
+        <!--main-header-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light main-menu">
+            <div class="container-fluid">
+                <button type="button" id="sidebarCollapse" 
+                    class="btn text-sidebar bg-turbo-yellow ">
+                    <i id="collapseIcon" class="fas fa-arrow-left"></i>
+                    <span></span>
+                </button>
+                <button class="btn btn-dark d-inline-block d-lg-none ml-auto menu-toggle" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="row header-area">
+                        <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1 col-12"></div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-7 col-sm-7 col-12">
+                            <form class="project-n">
+                                <label>Project :</label>
+                                <select>
+                                    <option>Select A Option</option>
+                                    <option>Project Name</option>
+                                    <option>Project Name1</option>
+                                    <option>Project Name2</option>
+                                    <option>Project Name3</option>
+                                    <option>Project Name</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-sm-4 col-12">
+                            <form class="project-n1">
+                                <select>
+                                    <option>Month</option>
+                                    <option>January</option>
+                                    <option>February</option>
+                                    <option>March</option>
+                                    <option>April</option>
+                                    <option>May</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                            <ul class="n-menu">
+                                <li class="notification">
+                                    <a href="javascript:void(0);"><i class="fa-regular fa-bell"></i></a> <span class="count">12</span>
+                                    <div class="notify-box">
+                                        <h4>Notifications</h4>
+                                        <ul>
+                                            <li>
+                                                <p>Your Version in updated !!!</p>
+                                                <h6>Updated 48 mins ago</h6>
+                                            </li>
+                                            <li>
+                                                <p>Your Version in updated !!!</p>
+                                                <h6>Updated 48 mins ago</h6>
+                                            </li>
+                                            <li>
+                                                <p>Your Version in updated !!!</p>
+                                                <h6>Updated 48 mins ago</h6>
+                                            </li>
+                                            <li>
+                                                <p>Your Version in updated !!!</p>
+                                                <h6>Updated 48 mins ago</h6>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="d-flex align-items-center name-box">
+                                        <img class="rounded-circle header-profile-user" src="images/avatar.png" alt="Header Avatar">
+                                        <span class="text-start ms-xl-2">
+                                            <span class=" d-xl-inline-block ms-1 fw-medium user-name-text">Satakshi <i class="fa-solid fa-caret-down"></i></span>
+                                        </span>
+                                    </span>
+                                    <ul class="name-dropdown">
+                                        <li><a href="changepassword.html"><i class="fa-solid fa-lock"></i> Change Password</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Log Out</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--end-->
+
+        <!--mainpage-content-->
+        <div class="site-area">
+           <!--index-head-->
+            <section class="index-head">
+                <div class="row">
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                        <a href="newguest.html">
+                            <div class="row">
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-2"><div class="index-h-img"><img alt="image" src="images/in1.png"></div></div>
+                                <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-10"><h4>New Guest CheckIn</h4></div>
+                              </div>
+                        </a>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-2"><div class="index-h-img"><img alt="image" src="images/in2.png"></div></div>
+                                <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-10"><h4>New Guest CheckOut</h4></div>
+                              </div>
+                        </a>
+                    </div>
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                        <a href="#">
+                            <div class="row">
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-2"><div class="index-h-img"><img alt="image" src="images/in3.png"></div></div>
+                                <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-10"><h4>Wallet Recharge</h4></div>
+                              </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+           <!--end-->
+
+           <!--dashboard-details-->
+            <section class="dashboard-details">
+                <div class="row">
+                    <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="row">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <h4 class="d-head">Balance</h4>
+                                <div class="d-box">
+                                    <div class="row">
+                                        <div class="col-auto me-auto">
+                                            <h3>₹1,79,721</h3>
+                                            <p>Total Balance</p>
+                                        </div>
+                                        <div class="col-auto"><img alt="image" src="images/chart1.png"></div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-auto me-auto">
+                                            <h3>₹13,79,721</h3>
+                                            <p>Positive Balance</p>
+                                        </div>
+                                        <div class="col-auto"><img alt="image" src="images/chart2.png"></div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-auto me-auto">
+                                            <h3>-₹11,79,721</h3>
+                                            <p>Negative Balance</p>
+                                        </div>
+                                        <div class="col-auto"><img alt="image" src="images/chart3.png"></div>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <h4 class="d-head">Energy Audit</h4>
+                                <div class="d-box">
+                                    <div class="row">
+                                        <div class="col-auto me-auto">
+                                            <h3>₹1,79,721</h3>
+                                            <p class="text-break">Audit Meter Consumption</p>
+                                        </div>
+                                        <div class="col-auto"><img alt="image" src="images/chart4.png"></div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-auto me-auto">
+                                            <h3>₹3,79,721</h3>
+                                            <p class="text-break">Consumer Meter Consumption</p>
+                                        </div>
+                                        <div class="col-auto"><img alt="image" src="images/chart5.png"></div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-auto me-auto">
+                                            <h3>₹1,79,721</h3>
+                                            <p>Total Loss</p>
+                                        </div>
+                                        <div class="col-auto"><img alt="image" src="images/chart6.png"></div>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <h4 class="d-head">Health of Device</h4>
+                                <div class="d-box">
+                                    <div class="table-responsive">
+                                        <table class="table table-borderless">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col">Device</th>
+                                                <th scope="col">Unhealthy</th>
+                                                <th scope="col">Healthy</th>
+                                                <th scope="col">Unstate</th>
+                                                <th scope="col">Total</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <th scope="row">IoT Gateways</th>
+                                                <td>0</td>
+                                                <td>1</td>
+                                                <td>0</td>
+                                                <td>1</td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">Meters</th>
+                                                <td>0</td>
+                                                <td>1</td>
+                                                <td>0</td>
+                                                <td>1</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <h4 class="d-head">Property Outlook</h4>
+                        <div class="row">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                
+                                <div class="d-box">
+                                    <h2>CONSUMPTION</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                Consumed Amount  <span class="float-end">₹17,972</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                CAM Amount    <span class="float-end">₹7,972</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                CAP Amount     <span class="float-end">₹1972</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="d-box">
+                                    <h2>RECHARGE</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                Total Recharge  <span class="float-end">₹17,972</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Settled Amount    <span class="float-end">₹7,972</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Unsettled Amount     <span class="float-end">₹1972</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="d-box">
+                                    <h2>METERS</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                No.of Meters  <span class="float-end">1160</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Cut Meters   <span class="float-end">26</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Overload Meters     <span class="float-end">33</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="d-box">
+                                    <h2>OTHERS</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                DG Generation  <span class="float-end">1156.33</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Suspect Meters    <span class="float-end">22</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+           <!--end-->
+
+           <!--month-summary-->
+            <section class="month-summary">
+                <div class="row">
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <ul>
+                            <h4>Current Monthly Summary</h4>
+                            <li>
+                                <a href="#">
+                                    <div class="summary-box">
+                                        <div class="sum-h-img"><img alt="image" src="images/ico1.png"></div>
+                                        <h4>Total Rooms</h4>
+                                        <h2>20</h2>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="summary-box">
+                                        <div class="sum-h-img"><img alt="image" src="images/ico2.png"></div>
+                                        <h4>Occupied Rooms</h4>
+                                        <h2>12</h2>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="summary-box">
+                                        <div class="sum-h-img"><img alt="image" src="images/ico3.png"></div>
+                                        <h4>Available Rooms</h4>
+                                        <h2>08</h2>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="summary-box">
+                                        <div class="sum-h-img"><img alt="image" src="images/ico2.png"></div>
+                                        <h4>Partially Occupied</h4>
+                                        <h2>11</h2>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="summary-box">
+                                        <div class="sum-h-img"><img alt="image" src="images/ico7.png"></div>
+                                        <h4>Total Beds</h4>
+                                        <h2>45</h2>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="summary-box">
+                                        <div class="sum-h-img"><img alt="image" src="images/ico6.png"></div>
+                                        <h4>Occupied Beds</h4>
+                                        <h2>20</h2>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="summary-box">
+                                        <div class="sum-h-img"><img alt="image" src="images/ico7.png"></div>
+                                        <h4>Available Beds</h4>
+                                        <h2>10</h2>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="summary-box">
+                                        <div class="sum-h-img"><img alt="image" src="images/ico2.png"></div>
+                                        <h4>Corporate Rooms</h4>
+                                        <h2>04</h2>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="summary-box">
+                                        <div class="sum-h-img"><img alt="image" src="images/ico9.png"></div>
+                                        <h4>CheckedIn Guests</h4>
+                                        <h2>10</h2>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="summary-box">
+                                        <div class="sum-h-img"><img alt="image" src="images/ico10.png"></div>
+                                        <h4>CheckedOut Guests</h4>
+                                        <h2>22</h2>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+           <!--end-->
+    </div>
+
+    <!--end-->
+</div>
+   <!--end-->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Optional JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/custom.js"></script>
+
+    <!--Bootstrap-->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

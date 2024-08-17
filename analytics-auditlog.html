@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="StayX Connected Living" />
+
+    <title>StayX Dashboard</title>
+
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+    <!--main_css-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--responsive_css-->
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+
+<body>
+
+
+   <!--main-area-->
+   <div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+     <div class="sidebar-left">
+        <div class="sidebar-header">
+            <div class="logo-area">
+                <a href="index.html"><img alt="image" src="images/logo.png"></a>
+            </div>
+        </div>
+
+        <ul class="list-unstyled components">
+            <li><a href="index.html"><img alt="image" src="images/menu1.png"> Dashboard</a></li>
+            <li class="active"><a href="analytics.html"><img alt="image" src="images/menu2.png"> Analytics</a></li>
+            <li><a href="setup.html"><img alt="image" src="images/menu3.png"> Setup</a></li>
+        </ul>
+
+        <h4><a href="#"><img alt="image" src="images/logout.png"> Logout</a></a></h4>
+     </div>
+       
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content">
+
+        <!--main-header-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light main-menu">
+            <div class="container-fluid">
+                <button type="button" id="sidebarCollapse" 
+                    class="btn text-sidebar bg-turbo-yellow ">
+                    <i id="collapseIcon" class="fas fa-arrow-left"></i>
+                    <span></span>
+                </button>
+                <button class="btn btn-dark d-inline-block d-lg-none ml-auto menu-toggle" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="row header-area"  style="width: 100%;">
+                      <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1 col-12"></div>
+                      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-7 col-sm-7 col-12">
+                          <form class="project-n">
+                              <label>Project :</label>
+                              <select>
+                                  <option>Select A Option</option>
+                                  <option>Project Name</option>
+                                  <option>Project Name1</option>
+                                  <option>Project Name2</option>
+                                  <option>Project Name3</option>
+                                  <option>Project Name</option>
+                              </select>
+                          </form>
+                      </div>
+                      <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-sm-4 col-12">
+                          <form class="project-n1">
+                              <select>
+                                  <option>Month</option>
+                                  <option>January</option>
+                                  <option>February</option>
+                                  <option>March</option>
+                                  <option>April</option>
+                                  <option>May</option>
+                              </select>
+                          </form>
+                      </div>
+                      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                          <ul class="n-menu">
+                              <li class="notification">
+                                  <a href="javascript:void(0);"><i class="fa-regular fa-bell"></i></a> <span class="count">12</span>
+                                  <div class="notify-box">
+                                      <h4>Notifications</h4>
+                                      <ul>
+                                          <li>
+                                              <p>Your Version in updated !!!</p>
+                                              <h6>Updated 48 mins ago</h6>
+                                          </li>
+                                          <li>
+                                              <p>Your Version in updated !!!</p>
+                                              <h6>Updated 48 mins ago</h6>
+                                          </li>
+                                          <li>
+                                              <p>Your Version in updated !!!</p>
+                                              <h6>Updated 48 mins ago</h6>
+                                          </li>
+                                          <li>
+                                              <p>Your Version in updated !!!</p>
+                                              <h6>Updated 48 mins ago</h6>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </li>
+                              <li>
+                                  <span class="d-flex align-items-center name-box">
+                                      <img class="rounded-circle header-profile-user" src="images/avatar.png" alt="Header Avatar">
+                                      <span class="text-start ms-xl-2">
+                                          <span class=" d-xl-inline-block ms-1 fw-medium user-name-text">Satakshi <i class="fa-solid fa-caret-down"></i></span>
+                                      </span>
+                                  </span>
+                                  <ul class="name-dropdown">
+                                      <li><a href="changepassword.html"><i class="fa-solid fa-lock"></i> Change Password</a></li>
+                                      <li><a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Log Out</a></li>
+                                  </ul>
+                              </li>
+                          </ul>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--end-->
+
+        <!--mainpage-content-->
+        <div class="site-area">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Main Dashboard</a></li>
+              <li class="breadcrumb-item"><a href="analytics.html">Analytics</a></li>
+              <li class="breadcrumb-item">Logs</li>
+              <li class="breadcrumb-item active" aria-current="page">Audit Log</li>
+            </ol>
+          </nav>
+           <!--occupancy-->
+            <section class="analytics-page">
+                <div class="row" style="width: 100%;">
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                        <div class="s-drop">
+                          <div class="s-card">
+                              <div class="s-title">Analytics</div>
+                              <div class="s-panel">
+                                   <ul>
+                                      <li><a href="analytics.html"><i class="fa-solid fa-list"></i> Monthly Summary</a></li>
+                                   </ul>
+                              </div>
+                          </div>
+                          <div class="s-card">
+                              <div class="s-title">Usage Points</div>
+                              <div class="s-panel fs-5">
+                                <ul>
+                                  <li><a href="analytics-occupancy.html"><i class="fa-solid fa-list"></i>Occupancy</a></li>
+                                  <li><a href="#"><i class="fa-solid fa-list"></i>Occupied Usage Points</a></li>
+                                  <li><a href="#"><i class="fa-solid fa-list"></i>Available Usage Points</a></li>
+                                  <li><a href="#"><i class="fa-solid fa-list"></i>Partial Occupied Usage Points</a></li>
+                               </ul>
+                              </div>
+                          </div>
+                          <div class="s-card">
+                            <div class="s-title">Guests</div>
+                            <div class="s-panel fs-5">
+                              <ul>
+                                <li><a href="#"><i class="fa-solid fa-list"></i>Daily Guest CheckIn</a></li>
+                                <li><a href="#"><i class="fa-solid fa-list"></i>Daily Guest CheckOut</a></li>
+                             </ul>
+                            </div>
+                        </div>
+                        <div class="s-card">
+                          <div class="s-title">Wallet</div>
+                          <div class="s-panel fs-5">
+                            <ul>
+                              <li><a href="#"><i class="fa-solid fa-list"></i>Active Wallet</a></li>
+                              <li><a href="#"><i class="fa-solid fa-list"></i>Closed Wallet</a></li>
+                           </ul>
+                          </div>
+                      </div>
+                      <div class="s-card">
+                        <div class="s-title">Invoice</div>
+                        <div class="s-panel fs-5">
+                          <ul>
+                            <li><a href="#"><i class="fa-solid fa-list"></i>Daily Invoice</a></li>
+                            <li><a href="#"><i class="fa-solid fa-list"></i>Monthly Invoice</a></li>
+                         </ul>
+                        </div>
+                    </div>
+                    <div class="s-card">
+                      <div class="s-title">Meter</div>
+                      <div class="s-panel fs-5">
+                        <ul>
+                          <li><a href="#"><i class="fa-solid fa-list"></i>Meter Health</a></li>
+                          <li><a href="#"><i class="fa-solid fa-list"></i>Meter Reading</a></li>
+                          <li><a href="#"><i class="fa-solid fa-list"></i>Monthly Meter Consumption</a></li>
+                          <li><a href="#"><i class="fa-solid fa-list"></i>Daily Meter Consumption</a></li>
+                          <li><a href="#"><i class="fa-solid fa-list"></i>Hourly Meter Consumption</a></li>
+                          <li><a href="#"><i class="fa-solid fa-list"></i>Meter Consumption</a></li>
+                          <li><a href="#"><i class="fa-solid fa-list"></i>Day wise Meter Consumption</a></li>
+                       </ul>
+                      </div>
+                  </div>
+                  <div class="s-card">
+                    <div class="s-title">IoT Gateway</div>
+                    <div class="s-panel">
+                         <ul>
+                            <li><a href="#"><i class="fa-solid fa-list"></i> IoT Gateway Health</a></li>
+                         </ul>
+                    </div>
+                </div>
+                <div class="s-card">
+                  <div class="s-title">Logs</div>
+                  <div class="s-panel">
+                       <ul>
+                          <li><a href="analytics-auditlog.html"><i class="fa-solid fa-list"></i> Audit Logs</a></li>
+                       </ul>
+                  </div>
+              </div>
+                      </div>
+                    </div>
+                    <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                      <div class="row filter-form">
+                        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                          <form>
+                            <label>From :</label>
+                            <input type="date" id="datepicker">
+                            <label>to :</label>
+                            <input type="date" id="datepicker">
+        
+                            <input type="submit" value="Go">
+                          </form>
+                        </div>
+                      </div>
+                        <h4 class="d-head">Audit Logs <span class="float-end">Total Records : 12</span></h4>
+                        <div class="clearfix"></div>
+                        <div class="table-search">
+                          <form>   
+                            <p>Show : </p>
+                            <select>
+                                <option>10</option>
+                                <option>20</option>
+                                <option>50</option>
+                                <option>100</option>
+                            </select>
+                            <p>Entries</p>
+                            <div class="input-group flex-nowrap">
+                              <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass"></i></span>
+                              <input type="search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="addon-wrapping">
+                            </div>
+                          </form>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover table-fixed">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col">Total Beds</th>
+                                    <th scope="col">Occupied Beds</th>
+                                    <th scope="col">Available Beds</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>VIBE-002</td>
+                                    <td>Available</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>VIBE-002</td>
+                                    <td>Available</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>VIBE-002</td>
+                                    <td>Available</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">4</th>
+                                    <td>VIBE-002</td>
+                                    <td>Available</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">5</th>
+                                    <td>VIBE-002</td>
+                                    <td>Available</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">6</th>
+                                    <td>VIBE-002</td>
+                                    <td>Available</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">7</th>
+                                    <td>VIBE-002</td>
+                                    <td>Available</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">8</th>
+                                    <td>VIBE-002</td>
+                                    <td>Available</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">9</th>
+                                    <td>VIBE-002</td>
+                                    <td>Available</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">10</th>
+                                    <td>VIBE-002</td>
+                                    <td>Available</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">11</th>
+                                    <td>VIBE-002</td>
+                                    <td>Available</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">12</th>
+                                    <td>VIBE-002</td>
+                                    <td>Available</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                        </div>
+                        <nav aria-label="Page navigation example" class=" pg-main">
+                            <ul class="pagination justify-content-center">
+                              <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                              </li>
+                              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                              </li>
+                            </ul>
+                          </nav>
+                         
+                    </div>
+                </div>
+            </section>
+           <!--end-->
+    </div>
+
+    <!--end-->
+</div>
+   <!--end-->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Optional JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/custom.js"></script>
+
+    <!--Bootstrap-->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
